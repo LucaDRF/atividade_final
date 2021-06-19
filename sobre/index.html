@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>BandShirt</title>
+    <link href="../doc/estilo.css" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Language" content="pt-br">
+</head>
+<body>
+    <div class="cabecalho">
+        <ul>
+            <li><a href="..\main_page\index.html"><button class="titulo">BandShirt</button></a></li>
+            <li>
+                <ul class="submenu">
+                    <li><a href="..\camisas\index.html"><button class="itens">CAMISAS</button></a></li>
+                    <li><a href="..\carrinho\index.html"><button class="itens">CARRINHO</button></a></li>
+                    <li><a href="..\sobre\index.html"><button class="itens">SOBRE</button></a></li>
+                </ul>
+                <script>
+                    const div = document.getElementsByClassName('itens');
+                    for (var c = 0; c < 4; c++){
+                        if (div[c].innerHTML == 'SOBRE'){
+                            div[c].setAttribute('style', 'background-color:#81ff04;');
+                        }
+                    }
+                </script>
+            </li>
+            <li>
+                <ul class="lo">
+                    <li><a href="..\login\index.html"><button class="login">LOGIN</button></a></li>
+                    <li><a href="..\cadastro\index.html"><button class="login">CADASTRO</button></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <h1 id="cronometroTit">Sobre:</h1>
+    <iframe id="videoYt" width="920" height="530" src="https://www.youtube.com/embed/2DaX-oyUq-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <script type="text/javascript" src="../doc/js.js"></script>
+</body>

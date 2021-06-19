@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    background-color: rgb(243, 161, 131);
+    padding: 80px;
+    padding-top: 60px;
+    margin: 0;
+}
+ul {
+    display: inline;
+    margin: 0;
+    padding: auto;}
+    
+ul li {display: inline-block; padding:0; width: auto;}
+.lo{
+    display: inline-flexbox;
+}
+.titulo{
+	background-color:rgb(194, 103, 71);
+	border-radius: 10px;
+    margin-top: -60px;
+    border: black solid 2px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 2, 2);
+}
+.submenu{
+    margin: 6cm;
+}
+.itens{
+    width: 5cm;
+	height:60px;
+	background-color:rgb(214, 204, 68);
+	border-radius: 10px;
+    border: black solid 2px;
+    font-size: 30px;
+    margin: 0px 5px 0px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(31, 2, 2);
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: -150px;
+    margin-left: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login:hover{background-color: rgb(126, 123, 123);}
+.titulo:hover{background-color: rgb(126, 123, 123);}
+.itens:hover{background-color: rgb(126, 123, 123);}
+@import url('https://fonts.google.com/specimen/Bangers#pairings');
+#tituloM{
+    font-size: 80px;
+    font-family: 'Bangers', sans-serif;
+    margin-left: -500px;
+    margin-bottom: 140px;
+}
+#corpoM{
+    font-size: 45px;
+    font-family: 'Bangers', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#linkM{
+    font-size: 36px;
+    font-family: 'Bangers', sans-serif;
+
+    color:rgb(133, 9, 9)
+}
+#hotsite{
+    background-color: rgb(197, 75, 61);
+    align-items: center;
+    margin-top: -70px;
+}
+#texto {text-align: center;}
+#menino {float: right;display: flex-end; margin-top: -480px;}
+#menina {display: flex-end; margin-top: -480px;}
+#rodape{
+    height: 100px;
+    background-color: darkgrey;
+}
+#formulario{
+    margin-left: 300px;
+    margin-bottom: 18%;
+    margin-top: 90px;
+}
+.formularioL{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formularioI{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+#botaoSubmit{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 24px;
+    width: 200px;
+}
+#textoLogin{
+    text-align: center;
+    margin-top: -540px;
+    margin-left: 70px;
+    margin-bottom: 400px;
+}
+.loginTexto {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 40px;
+
+}
+#cadastro{
+    text-align: center;
+}
+#tituloCadastro{
+    font-family: 'Bangers';
+    font-size: 50px;
+}
+#subtituloCadastro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.inputCadastro1{
+    font-size: 20px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputCadastro2{
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+#inputCadastroData{
+    font-size: 20px;
+    width: 200px;
+}
+#botaoSubmitC{
+    font-size: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-family: "Bangers";
+}
+.botaoSubmitC{
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#botaoSubmitCa{
+    font-size: 40px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 100px;  
+}
+#cadastroPromocao{
+    height: 35px;
+    width: 35px;
+    margin-left: -20px;
+}
+#textoCadastro{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 15px;
+    
+}
+#textoCadastro1{
+    font-size: 13px;
+    margin-top: -10px;
+}
+#camisas{
+    font-family: 'Bangers';
+    text-align: center;
+    font-size: 60px;
+    background-color: cadetblue;
+    height: 80px;
+}
+#produtos{
+    display: flex;
+    align-items: flex-start;
+    border: 10px rgb(7, 54, 68) solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+#produtos1{
+    display: flex;
+    align-items: flex-start;
+    border: 10px rgb(7, 54, 68) solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+#produtos2{
+    display: flex;
+    align-items: flex-start;
+    border: 10px rgb(7, 54, 68) solid;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+.produtoNome{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 20px;
+}
+.produtoPreco{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 20px;
+    font-weight: bold;
+}
+.produtoImg{
+    max-width: 200px;
+}
+.produtoBotao{
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: cadetblue;
+}
+#ver{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 900px;
+}
+.produtoItem{
+    width: 60%;
+    padding: 20px 60px;
+}
+#produtosCarrinho {
+    display: flex;
+    align-items: flex-start;
+    border: 10px rgb(7, 54, 68) solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.produtoQnt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 20px;
+    font-weight: bold;
+}
+#total{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+#cronometroTit{
+    font-size: 80px;
+    font-family: "Bangers";
+    margin-left: 80px;
+}
+#cronometro{
+    margin-left: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-size: 100px;
+    width: 280px;
+    display: flex;
+    text-align: center;
+    border: 2px solid black;
+    margin-bottom: 100px;
+}
+#cupom{
+    margin-left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    font-size: 80px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    background-color: cadetblue;
+}
+#videoYt{
+    margin-top: -100px;
+    align-items: center;
+    display: flex;
+    margin-left: 400px;
+}
+#inputDesconto{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#botaoDesconto{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

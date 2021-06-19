@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title>BandShirt</title>
+    <link href="../doc/estilo.css" rel="stylesheet">
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Language" content="pt-br">
+</head>
+<body>
+    <div class="cabecalho">
+        <ul>
+            <li><a href="..\main_page\index.html"><button class="titulo">BandShirt</button></a></li>
+            <li>
+                <ul class="submenu">
+                    <li><a href="..\camisas\index.html"><button class="itens">CAMISAS</button></a></li>
+                    <li><a href="..\carrinho\index.html"><button class="itens">CARRINHO</button></a></li>
+                    <li><a href="..\sobre\index.html"><button class="itens">SOBRE</button></a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="lo">
+                    <li><a href="..\login\index.html"><button class="login">LOGIN</button></a></li>
+                    <li><a href="..\cadastro\index.html"><button class="login">CADASTRO</button></a></li>
+                    <script>
+                        const div = document.getElementsByClassName('login');
+                        for (var c = 0; c < 4; c++){
+                            if (div[c].innerHTML == 'LOGIN'){
+                                div[c].setAttribute('style', 'background-color:#81ff04');}
+                        }
+                    </script>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id='formulario'>
+        <form>
+            <div>
+                <label class="formularioL" for="email">Email:</label><br>
+                <input class="formularioI" type="email" name="email">
+            </div>
+            <div>
+                <label class="formularioL" for="email">Senha:</label><br>
+                <input class="formularioI" type="password" name="senha">
+            </div>
+            <input id="botaoSubmit" type="submit" value="Entre">
+        </form>
+    </div>
+    <div id='textoLogin'>
+        <h1 class='loginTexto'>Ao clicar em 'Enviar' você concordará com os Termos <br> e Condições Creators Club e a Política de <br>Privacidade.</h1>
+        <h1 class='loginTexto'>Não está registrado?<a class='loginTexto' href="https://www.youtube.com/"> Junte-se a nós.</a></h1>
+    </div>
+    <footer id='rodape'></footer>
+    <script type="text/javascript" src="../doc/js.js"></script>
+</body>
