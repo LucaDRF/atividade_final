@@ -222,6 +222,11 @@ ul li {display: inline-block; padding:0; width: auto;}
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: cadetblue;
 }
+
+.produtoBotao:hover{
+    cursor: pointer;
+    background-color: rgb(197, 75, 61);
+}
 #ver{
     text-align: center;
     font-size: 20px;
